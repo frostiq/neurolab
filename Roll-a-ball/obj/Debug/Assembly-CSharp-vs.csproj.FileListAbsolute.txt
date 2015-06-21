@@ -1,0 +1,14 @@
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\encog-core-cs.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\obj\Debug\Assembly-CSharp.dll
+C:\Users\Аляксандр\SkyDrive\Дакументы\Unity Projects\Roll-a-ball\obj\Debug\Assembly-CSharp.pdb

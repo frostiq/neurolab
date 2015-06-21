@@ -1,0 +1,15 @@
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\UDP.Server.exe.config
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\UDP.Server.exe
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\UDP.Server.pdb
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\SecurePassComponents.dll
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\Utils.dll
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\VPS.SecurePassCore.dll
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\SecurePassComponents.pdb
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\VPS.SecurePassCore.pdb
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\bin\Debug\Utils.pdb
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.csprojResolveAssemblyReference.cache
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.SecurePassMain.resources
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.Properties.Resources.resources
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.csproj.GenerateResource.Cache
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.exe
+C:\Users\Аляксандр\Source\Udp.ServerCode\Udp.Server\UDP.Server\obj\x86\Debug\UDP.Server.pdb

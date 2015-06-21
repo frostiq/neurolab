@@ -1,0 +1,5 @@
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\UDP.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\UDP.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.csprojResolveAssemblyReference.cache

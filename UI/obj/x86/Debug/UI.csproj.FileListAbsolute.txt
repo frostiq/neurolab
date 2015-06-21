@@ -1,0 +1,14 @@
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\UDP.Server.exe.config
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UDP.Server.exe
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UDP.Server.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UI.SecurePassMain.resources
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UDP.Server.Properties.Resources.resources
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\obj\x86\Debug\UI.csproj.GenerateResource.Cache
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\UDP.Server.exe
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\UDP.Server.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\UDP.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\UDP.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\NeuroUtilites.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\encog-core-cs.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UI\bin\Debug\NeuroUtilites.pdb
