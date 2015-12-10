@@ -2,7 +2,7 @@
 using System.IO;
 using ProtoBuf;
 
-namespace UDP
+namespace NeuroServer.Udp
 {
     public class BinarySerializer : ISerializer, IDisposable
     {

@@ -4,7 +4,7 @@ using Encog.MathUtil.Matrices;
 using Encog.Neural.Networks;
 using Encog.Neural.Networks.Layers;
 
-namespace NeuroUtilities
+namespace NeuroServer.NeuroUtilities
 {
     public class NeuroController
     {

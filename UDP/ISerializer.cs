@@ -1,4 +1,4 @@
-﻿namespace UDP
+﻿namespace NeuroServer.Udp
 {
     public interface ISerializer
     {

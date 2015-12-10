@@ -4,18 +4,18 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace UDP
+namespace NeuroServer.Udp
 {
-    public class Server
+    public class Server: IDisposable
     {
         public event Func<object, object> OnProcess;
 
-        private readonly UdpClient _udp;
+        private UdpClient _udp;
         private Task _listenTask;
         private readonly CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
         private readonly BinarySerializer _serializer = new BinarySerializer();
 
-        public Server(int port)
+        public void Init(int port)
         {
             _udp = new UdpClient(port);
             var token = _cancellationTokenSource.Token;
@@ -28,6 +28,18 @@ namespace UDP
             _listenTask.Start();
         }
 
+        public void Stop()
+        {
+            _cancellationTokenSource.Cancel();
+        }
+
+        public void Dispose()
+        {
+            Stop();
+            _udp.Dispose();
+            _serializer.Dispose();
+        }
+
         private void Listen(CancellationToken token)
         {
             while (!token.IsCancellationRequested)
@@ -37,11 +49,6 @@ namespace UDP
                 Task.Run(() => RawProcess(bytes, endPoint), token);
             }
             _udp.Close();
-        }
-
-        public void Stop()
-        {
-            _cancellationTokenSource.Cancel();
         }
 
         private void RawProcess(byte[] bytes, IPEndPoint endPoint)

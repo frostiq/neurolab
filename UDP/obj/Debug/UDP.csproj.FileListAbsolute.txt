@@ -1,5 +1,15 @@
 C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\UDP.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\UDP.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\protobuf-net.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\protobuf-net.pdb
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\protobuf-net.xml
+C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\bin\Debug\System.Threading.Tasks.Dataflow.xml
 C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.pdb
-C:\Users\Аляксандр\Source\NeuroServer.v2\UDP\obj\Debug\UDP.csprojResolveAssemblyReference.cache

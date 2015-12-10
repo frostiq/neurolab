@@ -7,10 +7,11 @@
     <ProjectGuid>{6F9EC0E0-FE63-4FF9-9AA5-53A3C35835C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NeuroUtilites</RootNamespace>
+    <RootNamespace>NeuroServer</RootNamespace>
     <AssemblyName>NeuroUtilites</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
