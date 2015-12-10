@@ -20,7 +20,6 @@ namespace UDP
             _udp = new UdpClient(port);
             var token = _cancellationTokenSource.Token;
             _listenTask = new Task(() => Listen(token), token);
-
             OnProcess += o => o;
         }
 

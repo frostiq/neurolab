@@ -1,28 +1,32 @@
-﻿using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
+﻿using System;
+using System.IO;
+using ProtoBuf;
+
 namespace UDP
 {
-    public class BinarySerializer : ISerializer
+    public class BinarySerializer : ISerializer, IDisposable
     {
-        private static readonly BinaryFormatter _formatter = new BinaryFormatter(); 
+        private readonly MemoryStream _stream = new MemoryStream();
 
         public byte[] Serialize<T>(T entity)
         {
-            using (var stream = new MemoryStream())
-            {
-                _formatter.Serialize(stream, entity);
-                return stream.ToArray();
-            }
+            Serializer.Serialize(_stream, entity);
+            var res = _stream.ToArray();
+            _stream.Seek(0, SeekOrigin.Begin);
+            return res;
         }
 
         public T Deserialize<T>(byte[] bytes)
         {
-            using (var stream = new MemoryStream())
-            {
-                stream.Write(bytes, 0, bytes.Length);
-                stream.Position = 0;
-                return (T)_formatter.Deserialize(stream); 
-            }
+            _stream.Write(bytes, 0, bytes.Length);
+            var res = Serializer.Deserialize<T>(_stream);
+            _stream.Seek(0, SeekOrigin.Begin);
+            return res;
+        }
+
+        public void Dispose()
+        {
+            _stream.Dispose();
         }
     }
 }
