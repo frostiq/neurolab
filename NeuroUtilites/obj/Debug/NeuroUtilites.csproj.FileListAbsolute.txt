@@ -1,6 +1,5 @@
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\bin\Debug\NeuroUtilites.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\bin\Debug\NeuroUtilites.pdb
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\bin\Debug\encog-core-cs.dll
-C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\obj\Debug\NeuroUtilites.csprojResolveAssemblyReference.cache
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\obj\Debug\NeuroUtilites.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroUtilites\obj\Debug\NeuroUtilites.pdb

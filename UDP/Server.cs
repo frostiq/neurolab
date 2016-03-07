@@ -20,7 +20,6 @@ namespace NeuroServer.Udp
             _udp = new UdpClient(port);
             var token = _cancellationTokenSource.Token;
             _listenTask = new Task(() => Listen(token), token);
-            OnProcess += o => o;
         }
 
         public void Start()
@@ -45,18 +44,18 @@ namespace NeuroServer.Udp
             while (!token.IsCancellationRequested)
             {
                 IPEndPoint endPoint = null;
-                var bytes = _udp.Receive(ref endPoint);
-                Task.Run(() => RawProcess(bytes, endPoint), token);
+                var request = _udp.Receive(ref endPoint);
+                var response = RawProcess(request, endPoint);
+                _udp.Send(response, response.Length, endPoint);
             }
             _udp.Close();
         }
 
-        private void RawProcess(byte[] bytes, IPEndPoint endPoint)
+        private byte[] RawProcess(byte[] bytes, IPEndPoint endPoint)
         {
             var obj = _serializer.Deserialize<object>(bytes);
             var res = OnProcess(obj);
-            bytes = _serializer.Serialize(res);
-            _udp.Send(bytes, bytes.Length, endPoint);
+            return _serializer.Serialize(res);            
         }
     }
 }

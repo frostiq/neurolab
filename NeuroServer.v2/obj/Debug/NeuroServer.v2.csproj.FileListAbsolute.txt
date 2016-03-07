@@ -4,11 +4,8 @@ C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\Neuro
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\NeuroUtilites.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\UDP.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\encog-core-cs.dll
-C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\protobuf-net.dll
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\NeuroUtilites.pdb
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\UDP.pdb
-C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\protobuf-net.pdb
-C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\bin\Debug\protobuf-net.xml
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\obj\Debug\NeuroServer.v2.csprojResolveAssemblyReference.cache
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\obj\Debug\MainWindow.baml
 C:\Users\Аляксандр\Source\NeuroServer.v2\NeuroServer.v2\obj\Debug\App.baml

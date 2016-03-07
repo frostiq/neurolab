@@ -1,32 +1,35 @@
 ﻿using System;
 using System.IO;
-using ProtoBuf;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace NeuroServer.Udp
 {
     public class BinarySerializer : ISerializer, IDisposable
     {
-        private readonly MemoryStream _stream = new MemoryStream();
+        private static readonly BinaryFormatter _formatter = new BinaryFormatter();
 
         public byte[] Serialize<T>(T entity)
         {
-            Serializer.Serialize(_stream, entity);
-            var res = _stream.ToArray();
-            _stream.Seek(0, SeekOrigin.Begin);
-            return res;
+            using (var stream = new MemoryStream())
+            {
+                _formatter.Serialize(stream, entity);
+                return stream.ToArray();
+            }
         }
 
         public T Deserialize<T>(byte[] bytes)
         {
-            _stream.Write(bytes, 0, bytes.Length);
-            var res = Serializer.Deserialize<T>(_stream);
-            _stream.Seek(0, SeekOrigin.Begin);
-            return res;
+            using (var stream = new MemoryStream())
+            {
+                stream.Write(bytes, 0, bytes.Length);
+                stream.Position = 0;
+                return (T)_formatter.Deserialize(stream);
+            }
         }
 
         public void Dispose()
         {
-            _stream.Dispose();
+            //_stream.Dispose();
         }
     }
 }
